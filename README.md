@@ -8,11 +8,11 @@ This repository is for installing RealVNC Server ARM64 edition on Ubuntu 22.04+ 
 INSTALLATION::
 
 To install, clone the git respository and use the included setup script:
-
-$ sudo zypper install git                           
+```
+$ sudo apt install git                           
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-ubuntu
 $ ./setup.sh
-
+```
 This script will correctly place the required shared library files needed by RealVNC Server and the script will also enable and start the RealVNC Server systemd service so that it is enabled and started by default.
 
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
