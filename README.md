@@ -1,5 +1,5 @@
 # realvnc-server-aarch64-ubuntu
-RealVNC Server ARM64 for Ubuntu 64bit running on a Raspberry Pi.
+RealVNC Server ARM64 for Ubuntu ARM 64bit running on a Raspberry Pi.
 
 RealVNC Server Version: 6.9.1
 
