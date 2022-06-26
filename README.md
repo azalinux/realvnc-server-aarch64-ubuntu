@@ -7,7 +7,7 @@ This repository is for installing RealVNC Server ARM64 edition on Ubuntu 22.04+ 
 
 INSTALLATION::
 
-```**Works on Xorg session only!  Logging in using a Wayland session will not work so make sure you login to Ubuntu using Xorg and not Wayland!**
+```**Works on Xorg session only!  Logging in using a Wayland session will not work so make sure you login to Ubuntu using Xorg and not Wayland!**```
 
 To install, clone the git respository and use the included setup script:
 ```
