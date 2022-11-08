@@ -1,7 +1,7 @@
 # realvnc-server-aarch64-ubuntu
 RealVNC Server ARM64 for Ubuntu ARM 64bit running on a Raspberry Pi.
 
-```This will also work for both Debian and Kali 64bit installs!```
+```This will also work for both Debian and Kali ARM 64bit installs!```
 
 RealVNC Server Version: 6.11.0
 
