@@ -11,7 +11,7 @@ INSTALLATION::
 
 ```**Works on Xorg session only!  Logging in using a Wayland session will not work so make sure you login to Ubuntu using Xorg and not Wayland!**```
 
-On many Debian based distro's, tightvncserver is installed by default.  This need to be removed before installing RealVNC Server:
+On many Debian based distro's, tightvncserver is installed by default.  This needs to be removed before installing RealVNC Server:
 ```
 $ sudo apt remove tightvncserver
 ```
