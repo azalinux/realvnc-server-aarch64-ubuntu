@@ -15,7 +15,14 @@ On many Debian based distro's, tightvncserver is installed by default.  This nee
 ```
 $ sudo apt remove tightvncserver
 ```
-To install, clone the git respository and use the included setup script:
+To install, either download the latest binary and install using your package manager or via the terminal with dpkg:
+
+```
+$ wget https://github.com/azalinux/realvnc-server-aarch64-ubuntu/releases/download/V6.11/realvnc-server-arm64-ubuntu-v6.11.deb
+$ sudo dpkg -i realvnc-server-arm64-ubuntu-v6.11.deb
+```
+
+or clone the git respository and use the included setup script:
 ```
 $ sudo apt install git                           
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-ubuntu
