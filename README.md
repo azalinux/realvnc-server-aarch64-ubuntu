@@ -3,7 +3,7 @@ RealVNC Server ARM64 for Ubuntu ARM 64bit running on a Raspberry Pi.
 
 ```This will also work for both Debian and Kali ARM 64bit installs!```
 
-RealVNC Server Version: 7.1.0
+RealVNC Server Version: 7.5.0
 
 This repository is for installing RealVNC Server ARM64 edition on Ubuntu 22.04+ ARM64 (aarch64) for your Raspberry Pi device. Has been tested using a Pi4 with 8gb RAM.
 
