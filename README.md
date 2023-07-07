@@ -26,6 +26,7 @@ or clone the git respository and use the included setup script:
 ```
 $ sudo apt install git                           
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-ubuntu
+$ chmod +x setup.sh
 $ ./setup.sh
 ```
 This script will correctly place the required shared library files needed by RealVNC Server and the script will also enable and start the RealVNC Server systemd service so that it is enabled and started by default.
