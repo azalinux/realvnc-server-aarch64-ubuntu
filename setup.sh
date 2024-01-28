@@ -10,6 +10,6 @@ else
     sudo ln -s /usr/lib/aarch64-linux-gnu/libvcos.so /usr/lib/libvcos.so.0
 fi
 
-sudo dpkg -i VNC-Server-7.8.0-Linux-ARM64.deb
+sudo dpkg -i VNC-Server-7.9.0-Linux-ARM64.deb
 
 sudo systemctl enable --now vncserver-x11-serviced 
