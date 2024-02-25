@@ -24,6 +24,7 @@ or clone the git respository and use the included setup script:
 ```
 $ sudo apt install git                           
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-ubuntu
+$ cd realvnc-server-aarch64-ubuntu
 $ chmod +x setup.sh
 $ ./setup.sh
 ```
