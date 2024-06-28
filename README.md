@@ -1,9 +1,13 @@
 # realvnc-server-aarch64-ubuntu
 RealVNC Server ARM64 for Ubuntu ARM 64bit running on a Raspberry Pi.
 
-RealVNC Server Version: 7.11.0
+RealVNC Server Version: 7.12.0
 
 This repository is for installing RealVNC Server ARM64 edition on Ubuntu 22.04+ ARM64 (aarch64) for your Raspberry Pi device. Has been tested using a Pi4 with 8gb RAM.
+
+>[!IMPORTANT]
+>There is no longer a need to create a Ubuntu specific binary anymore as the official RealVNC Server DEB binary package will install fine given recent changes by the RealVNC team.
+>The included setup.sh script simply uses dpkg to install the DEB binary and enables/start the systemd service by default to make things easy.
 
 INSTALLATION::
 
@@ -13,14 +17,7 @@ On many Debian based distro's, tightvncserver is installed by default.  This nee
 ```
 $ sudo apt remove tightvncserver
 ```
-To install, either download the latest binary and install using your package manager or via the terminal with dpkg:
-
-```
-$ wget https://github.com/azalinux/realvnc-server-aarch64-ubuntu/releases/download/v7.11.0/realvnc-server-arm64-ubuntu-v7.11.0.deb
-$ sudo dpkg -i realvnc-server-arm64-ubuntu-v7.11.0.deb
-```
-
-or clone the git respository and use the included setup script:
+Clone the git respository and use the included setup script:
 ```
 $ sudo apt install git                           
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-ubuntu
@@ -28,6 +25,7 @@ $ cd realvnc-server-aarch64-ubuntu
 $ chmod +x setup.sh
 $ ./setup.sh
 ```
+
 This script will correctly place the required shared library files needed by RealVNC Server and the script will also enable and start the RealVNC Server systemd service so that it is enabled and started by default.
 
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
